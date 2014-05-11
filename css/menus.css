@@ -1,0 +1,246 @@
+/* Menu styles */
+
+#block-system-user-menu {
+	
+}
+
+#block-system-user-menu ul {
+	float: right;
+	font-size: 0;
+}
+
+#block-system-user-menu ul li {
+	display: inline-block;
+	list-style: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#block-system-user-menu ul li a {
+	display: block;
+	padding: 0px;
+	width: 16px;
+	height: 16px;
+	margin: 0px 4px;
+}
+
+#block-system-user-menu ul li.facebook a {
+	background: url('../images/icons/facebook-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.facebook a:hover {
+	background: url('../images/icons/facebook-16-hover.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.twitter a {
+	background: url('../images/icons/twitter-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.twitter a:hover {
+	background: url('../images/icons/twitter-16-hover.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.google-plus a {
+	background: url('../images/icons/google-plus-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.google-plus a:hover {
+	background: url('../images/icons/google-plus-16-hover.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.instagram a {
+	background: url('../images/icons/instagram-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.instagram a:hover {
+	background: url('../images/icons/instagram-16-hover.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.youtube a {
+	background: url('../images/icons/youtube-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.youtube a:hover {
+	background: url('../images/icons/youtube-16-hover.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.github a {
+	background: url('../images/icons/github-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.github a:hover {
+	background: url('../images/icons/github-16-hover.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.rss a {
+	background: url('../images/icons/rss-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.rss a:hover {
+	background: url('../images/icons/rss-16-hover.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.contact a {
+	background: url('../images/icons/email-16.png') center center no-repeat;
+	margin-right: 12px;
+}
+
+#block-system-user-menu ul li.contact a:hover {
+	background: url('../images/icons/email-16-hover.png') center center no-repeat;
+	margin-right: 12px;
+}
+
+#block-system-user-menu ul li.account {
+	border-left: 1px solid #fff;
+}
+
+#block-system-user-menu ul li.account a {
+	background: url('../images/icons/account-16.png') center center no-repeat;
+	margin-left: 10px;
+}
+
+#block-system-user-menu ul li.account a:hover {
+	background: url('../images/icons/account-16-hover.png') center center no-repeat;
+	margin-left: 10px;
+}
+
+#block-system-user-menu ul li.log-out a {
+	background: url('../images/icons/log-out-16.png') center center no-repeat;
+}
+
+#block-system-user-menu ul li.log-out a:hover {
+	background: url('../images/icons/log-out-16-hover.png') center center no-repeat;
+}
+
+#block-system-main-menu {
+	
+}
+
+#block-system-main-menu ul {
+	float: right;
+	font-size: 0;
+}
+
+#block-system-main-menu ul li {
+	display: inline-block;
+	list-style: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	text-align: center;
+}
+
+#block-system-main-menu ul li a {
+	display: block;
+	padding: 6px 2px;
+	width: 75px;
+}
+
+#block-system-main-menu ul li.home a {
+	background-color: rgba(20, 76, 95, 0.50);
+	color: #fff;
+}
+
+#block-system-main-menu ul li.home a.active {
+	background: none;
+	color: #555;
+}
+
+#block-system-main-menu ul li.home a:hover {
+    background-color: rgba(19, 57, 75, 0.5);
+	color: #ccc;
+}
+
+#block-system-main-menu ul li.home a.active:hover {
+    background-color: rgba(19, 57, 75, 0.5);
+	color: #ccc;
+}
+
+#block-system-main-menu ul li.articles a {
+	background-color: rgba(165, 0, 0, 0.5);
+	color: #fff;
+}
+
+#block-system-main-menu ul li.articles a.active {
+	background: none;
+	color: #555;
+}
+
+#block-system-main-menu ul li.articles a:hover {
+    background-color: rgba(135, 0, 0, 0.5);
+	color: #ccc;
+}
+
+#block-system-main-menu ul li.articles a.active:hover {
+	background-color: rgba(135, 0, 0, 0.5);
+	color: #ccc;
+}
+
+#block-system-main-menu ul li.tutorials a {
+	background-color: rgba(155, 138, 0, 0.5);
+	color: #fff;
+}
+
+#block-system-main-menu ul li.tutorials a.active {
+	background: none;
+	color: #555;
+	/*border-bottom: 4px solid #907f00;*/
+}
+
+#block-system-main-menu ul li.tutorials a:hover {
+	background-color: rgba(125, 109, 0, 0.5);
+	color: #ccc;
+}
+
+#block-system-main-menu ul li.tutorials a.active:hover {
+	background-color: rgba(125, 109, 0, 0.5);
+	color: #ccc;
+}
+
+#block-system-main-menu ul li.about a {
+	background-color: rgba(27, 125, 37, 0.5);
+	color: #fff;
+}
+
+#block-system-main-menu ul li.about a.active {
+	background: none;
+	color: #555;
+}
+
+#block-system-main-menu ul li.about a:hover {
+	background-color: rgba(27, 95, 36, 0.5);
+	color: #ccc;
+}
+
+#block-system-main-menu ul li.about a.active:hover {
+	background-color: rgba(27, 95, 36, 0.5);
+	color: #ccc;
+}
+
+#content ul.tabs {
+	margin: 0px;
+	padding: 0px;
+	line-height: inherit;
+	border-bottom: 1px solid #555;
+}
+
+#content ul.tabs li {
+	text-align: center;
+}
+
+#content ul.tabs li a {
+	margin: 0px;
+	padding: 0px 10px;
+	background-color: inherit;
+	border: none;
+	display: inline-block;
+	width: 70px;
+}
+
+#content ul.tabs li a.active {
+	background-color: inherit;
+	border: none;
+}

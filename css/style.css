@@ -1,0 +1,293 @@
+/* Font styles. */
+body {
+    /* Setting up font size, leading and font family
+   * http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography */
+    font: 13px/1.5em Ubuntu, 'lucida grande', 'Helvetica Neue', tahoma, verdana, helvetica, Arial, sans-serif;
+    letter-spacing: 0.03em;
+    color: #ddd;
+    background: #1d1d1d url("../images/dark_pattern_background.jpg") left top;
+}
+
+/* Links */
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #555;
+    text-decoration: none;
+}
+
+li a.active {
+    color: #555;
+    text-decoration: none;
+}
+
+li a.active:hover {
+    color: #fff;
+}
+
+/* Titles. */
+#name-and-slogan {
+    /*padding: 0 0 1em;*/
+}
+
+#site-name {
+    font-size: 2.2em;
+    line-height: 1.3em;
+    font-weight: 300;
+    /*padding: 0 0 0.5em;*/
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 300;
+    padding: 0 0 0.3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 0.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin: 1em 0 0.5em 0;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: 0.8em;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* Paragraph styles. */
+p {
+    margin: 0 0 1em 0;
+}
+
+/* List styles. */
+ul, ol {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Table styles. */
+table {
+    width: 99%;
+}
+
+tr.even td, tr.odd td {
+    padding: 10px 5px;
+}
+
+tr.odd {
+    background-color: white;
+}
+
+/* Code. */
+pre, code, tt {
+    font: 1em "andale mono", "lucida console", monospace;
+    line-height: 1.5;
+}
+
+pre {
+    background-color: #efefef;
+    display: block;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #aaaaaa;
+}
+
+/* List styles. */
+ul {
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul {
+    list-style-type: square;
+}
+
+ul ul ul ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ol {
+    list-style-type: lower-alpha;
+}
+
+ol ol ol {
+    list-style-type: decimal;
+}
+
+/* Abbreviation. */
+abbr {
+    border-bottom: 1px dotted #666666;
+    cursor: help;
+    white-space: nowrap;
+}
+
+/* UI improvments. */
+#edit-title {
+    font-size: 24px;
+    width: 99%;
+}
+
+#system-themes-form img {
+    width: 100px;
+}
+
+.form-item .description {
+    font-style: italic;
+    line-height: 1.2em;
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #777777;
+}
+
+#edit-delete {
+    color: #cc0000;
+}
+
+/* Console, style from slate theme. */
+div.messages {
+    padding: 9px;
+    margin: 1em 0;
+    color: #aaccee;
+    background: rgba(187, 221, 255, 0.3);
+    border: 1px solid #aaccee;
+}
+
+div.messages a {
+    color: #aaccee;
+}
+
+div.messages a:hover {
+    color: #6c82a5;
+}
+
+div.warning {
+    color: #eedd55;
+    background: rgba(255, 238, 102, 0.3);
+    border-color: #eedd55;
+}
+
+div.warning a {
+    color: #eedd55;
+}
+
+div.warning a:hover {
+    color: #baa94b;
+}
+
+div.error {
+    color: #dd5522;
+    background: rgba(238, 102, 51, 0.3);
+    border-color: #dd5522;
+}
+
+div.error a {
+    color: #dd5522;
+}
+
+div.error a:hover {
+    color: #9a3e1d;
+}
+
+div.status {
+    color: #bbee77;
+    background: rgba(204, 255, 136, 0.3);
+    border-color: #bbee77;
+}
+
+div.status a {
+    color: #bbee77;
+}
+
+div.status a:hover {
+    color: #84b159;
+}
+
+#header {
+    border-bottom: 1px solid #555;
+}
+
+#main {
+    margin-top: 10px;
+}
+
+#footer {
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+ul.primary li a {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+ul.primary li a.active {
+    border-color: transparent;
+}
+
+input, textarea {
+    border: 1px solid #555;
+    background-color: #aaa;
+    padding: 2px 3px;
+}
+
+input[type=submit] {
+    border: 1px solid #888;
+    background-color: #ccc;
+    padding: 3px 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type=submit]:hover {
+    border: 1px solid #444;
+    background-color: #888;
+    color: #222;
+}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+    border: 1px solid #dd5522;
+}
+
+#copyright, #copyright a {
+    color: #555;
+}
+
+#copyright a:hover {
+    color: #888;
+}

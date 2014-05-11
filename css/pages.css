@@ -1,0 +1,80 @@
+/* Page styles */
+body div.page h1.title {
+}
+
+.node-unpublished {
+    background: none;
+}
+
+.node div.submitted {
+    color: #555;
+}
+
+.node div.submitted .unpublished {
+    font-style: italic;
+    color: #dd5522;
+}
+
+.node div.content {
+    margin-top: 10px;
+}
+
+.node div.content p {
+    margin: 0 0 1em 0.5em;
+}
+
+.node div.content h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 0.25em 0;
+    color: #888;
+}
+
+.node div.content ul, ol {
+    margin: 0 0 0 1em;
+}
+
+.node div.content ul, ol li {
+    position: relative;
+    left: 1em;
+    padding-right: 1em;
+}
+
+body.page-403 div#name-and-slogan {
+    margin-bottom: 20px;
+}
+
+body.page-403 div.page h1.title {
+    font-size: 5em;
+    padding: 0;
+}
+
+body.page-404 div#name-and-slogan {
+    margin-bottom: 20px;
+}
+
+body.page-404 div.page h1.title {
+    font-size: 5em;
+    padding: 0;
+}
+
+body.page-articles div.page h1.title {
+    border-bottom: 1px solid #900000;
+}
+
+body.page-tutorials div.page h1.title {
+    border-bottom: 1px solid #907f00;
+}
+
+body.page-about div.page h1.title {
+    border-bottom: 1px solid #165c1c;
+}
+
+div.field-name-field-tags div.field-label {
+    display: none;
+}
+
+div.field-name-field-tags div.field-item {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 2px 5px;
+    background-color: rgba(104, 104, 104, 0.25);
+}
